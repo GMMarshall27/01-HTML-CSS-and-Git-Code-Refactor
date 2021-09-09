@@ -1,13 +1,23 @@
-* {
+* /*Universal selector handling margin and padding*/
+{ 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body section */
 body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+/* Header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +51,6 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Main section */
 .float-left, .float-right {
     float: left;
     margin-right: 25px;
@@ -69,7 +70,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Aside section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -114,7 +115,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer section */
 .footer {
     padding: 30px;
     clear: both;
